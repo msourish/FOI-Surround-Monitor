@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="820" viewBox="0 0 720 820" role="img" aria-labelledby="foi-speaker-check-title foi-speaker-check-desc">
+  <title id="foi-speaker-check-title">FOI Surround Monitor: 5.1 speaker channel check</title>
+  <desc id="foi-speaker-check-desc">A top-down view of a listener facing the screen. Channel 1 is front left, channel 2 front right, channel 3 center, channel 4 LFE or subwoofer, channel 5 left surround and channel 6 right surround. The surrounds are slightly behind the listener. The subwoofer is drawn at the side only for illustration, not as a placement recommendation.</desc>
+  <rect width="720" height="820" rx="24" fill="#f8f9f5"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" fill="#193b38">
+    <text x="40" y="47" font-size="18" font-weight="700" letter-spacing="2">FOI SURROUND MONITOR</text>
+    <text x="40" y="93" font-size="36" font-weight="700">Check your six channels.</text>
+    <text x="40" y="124" font-size="22" fill="#536b65">5.1 listening position · viewed from above</text>
+
+    <!-- The room outline is a visual frame, not a scale drawing. -->
+    <rect x="40" y="155" width="640" height="530" rx="30" fill="#ffffff" stroke="#d8e3dc" stroke-width="2"/>
+    <rect x="253" y="154" width="214" height="10" rx="5" fill="#193b38"/>
+    <text x="360" y="190" text-anchor="middle" font-size="18" font-weight="600" letter-spacing="1.4" fill="#536b65">FRONT / SCREEN</text>
+
+    <!-- Quiet sight lines show the relation to the listening position. -->
+    <g fill="none" stroke="#c6d8ce" stroke-width="2" stroke-dasharray="5 8">
+      <path d="M150 290 L318 410"/>
+      <path d="M570 290 L402 410"/>
+      <path d="M178 534 L312 465"/>
+      <path d="M542 534 L408 465"/>
+    </g>
+
+    <!-- Front left: channel 1. -->
+    <g transform="translate(150 256)">
+      <rect x="-29" y="-38" width="58" height="76" rx="10" fill="#193b38"/>
+      <circle cy="-18" r="7" fill="#cce2d6"/>
+      <circle cy="13" r="17" fill="none" stroke="#cce2d6" stroke-width="3"/>
+      <circle cy="13" r="5" fill="#cce2d6"/>
+      <text y="74" text-anchor="middle" font-size="30" font-weight="700">1 · L</text>
+      <text y="101" text-anchor="middle" font-size="21" fill="#536b65">Front left</text>
+    </g>
+
+    <!-- Center: channel 3. -->
+    <g transform="translate(360 236)">
+      <rect x="-45" y="-25" width="90" height="50" rx="10" fill="#193b38"/>
+      <circle cx="-23" r="13" fill="none" stroke="#cce2d6" stroke-width="3"/>
+      <circle cx="23" r="13" fill="none" stroke="#cce2d6" stroke-width="3"/>
+      <circle r="5" fill="#cce2d6"/>
+      <text y="63" text-anchor="middle" font-size="30" font-weight="700">3 · C</text>
+      <text y="90" text-anchor="middle" font-size="21" fill="#536b65">Center</text>
+    </g>
+
+    <!-- Front right: channel 2. -->
+    <g transform="translate(570 256)">
+      <rect x="-29" y="-38" width="58" height="76" rx="10" fill="#193b38"/>
+      <circle cy="-18" r="7" fill="#cce2d6"/>
+      <circle cy="13" r="17" fill="none" stroke="#cce2d6" stroke-width="3"/>
+      <circle cy="13" r="5" fill="#cce2d6"/>
+      <text y="74" text-anchor="middle" font-size="30" font-weight="700">2 · R</text>
+      <text y="101" text-anchor="middle" font-size="21" fill="#536b65">Front right</text>
+    </g>
+
+    <!-- The arrow and person establish orientation without prescribing angles. -->
+    <path d="M360 385 V363 M352 372 L360 363 L368 372" fill="none" stroke="#709484" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="360" cy="439" r="51" fill="#e3eee7" stroke="#c6d8ce" stroke-width="2"/>
+    <circle cx="360" cy="424" r="13" fill="#193b38"/>
+    <path d="M333 461 C333 435 387 435 387 461 Z" fill="#193b38"/>
+    <text x="360" y="519" text-anchor="middle" font-size="23" font-weight="700" letter-spacing="1">LISTENER</text>
+
+    <!-- LFE is off-axis on purpose. No sight line implies a placement rule. -->
+    <g transform="translate(612 407)">
+      <rect x="-32" y="-33" width="64" height="66" rx="9" fill="#f0c489" stroke="#ab7437" stroke-width="2"/>
+      <circle r="22" fill="none" stroke="#754d25" stroke-width="3"/>
+      <circle r="8" fill="#754d25"/>
+      <text y="68" text-anchor="middle" font-size="27" font-weight="700">4 · LFE</text>
+      <text y="94" text-anchor="middle" font-size="21" fill="#536b65">Subwoofer*</text>
+    </g>
+
+    <!-- Surrounds are on their own sides, slightly behind the listener. -->
+    <g transform="translate(150 558)">
+      <rect x="-29" y="-38" width="58" height="76" rx="10" fill="#193b38"/>
+      <circle cy="-18" r="7" fill="#cce2d6"/>
+      <circle cy="13" r="17" fill="none" stroke="#cce2d6" stroke-width="3"/>
+      <circle cy="13" r="5" fill="#cce2d6"/>
+      <text y="73" text-anchor="middle" font-size="30" font-weight="700">5 · Ls</text>
+      <text y="100" text-anchor="middle" font-size="21" fill="#536b65">Left surround</text>
+    </g>
+    <g transform="translate(570 558)">
+      <rect x="-29" y="-38" width="58" height="76" rx="10" fill="#193b38"/>
+      <circle cy="-18" r="7" fill="#cce2d6"/>
+      <circle cy="13" r="17" fill="none" stroke="#cce2d6" stroke-width="3"/>
+      <circle cy="13" r="5" fill="#cce2d6"/>
+      <text y="73" text-anchor="middle" font-size="30" font-weight="700">6 · Rs</text>
+      <text y="100" text-anchor="middle" font-size="21" fill="#536b65">Right surround</text>
+    </g>
+
+    <text x="40" y="724" font-size="22" font-weight="600">Numbers match the app’s input channels.</text>
+    <path d="M40 744 H680" stroke="#d8e3dc" stroke-width="2"/>
+    <text x="40" y="775" font-size="21" fill="#536b65">*Subwoofer shown at the side for clarity.</text>
+    <text x="40" y="802" font-size="21" fill="#536b65">Its position is illustrative.</text>
+  </g>
+</svg>
